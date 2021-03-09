@@ -5,8 +5,7 @@
     "dev": "nuxt",
     "build": "nuxt build",
     "start": "nuxt start",
-    "generate": "nuxt generate",
-    "postbuild": "npx prettier --write ."
+    "generate": "nuxt generate"
   },
   "dependencies": {
     "@nuxt/content-theme-docs": "0.10.2",
