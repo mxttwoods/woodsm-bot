@@ -13,6 +13,8 @@
 cd woodsm
 ```
 
+then
+
 ```sh
 npm i
 ```
