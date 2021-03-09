@@ -1,0 +1,27 @@
+{
+  "name": "docs",
+  "version": "0.0.0-docs.1",
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "postbuild": "npx prettier --write ."
+  },
+  "dependencies": {
+    "@nuxt/content-theme-docs": "0.10.2",
+    "nuxt": "2.15.2"
+  },
+  "prettier": {
+    "printWidth": 80,
+    "trailingComma": "es5",
+    "tabWidth": 2,
+    "useTabs": false,
+    "semi": true,
+    "singleQuote": true,
+    "bracketSpacing": false,
+    "arrowParens": "always",
+    "jsxSingleQuote": true,
+    "quoteProps": "consistent"
+  }
+}

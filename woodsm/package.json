@@ -1,0 +1,26 @@
+{
+  "name": "woodsm",
+  "version": "0.0.1",
+  "scripts": {
+    "start": "node src/main.js",
+    "format": "npx prettier --write ."
+  },
+  "dependencies": {
+    "discord.js": "12.5.1",
+    "dotenv": "8.2.0",
+    "mongoose": "5.11.19",
+    "node-fetch": "2.6.1"
+  },
+  "prettier": {
+    "printWidth": 80,
+    "trailingComma": "es5",
+    "tabWidth": 2,
+    "useTabs": false,
+    "semi": true,
+    "singleQuote": true,
+    "bracketSpacing": false,
+    "arrowParens": "always",
+    "jsxSingleQuote": true,
+    "quoteProps": "consistent"
+  }
+}

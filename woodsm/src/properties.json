@@ -1,0 +1,7 @@
+{
+  "prefixCharacter": "!",
+  "logDirectory": "./logs",
+  "logName": "console.log",
+  "botName": "WoodsM-Bot",
+  "passCode": "2023"
+}

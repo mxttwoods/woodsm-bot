@@ -1,0 +1,10 @@
+{
+  "title": "WoodsM Discord Bot",
+  "url": "https://github.com/mxttwoods",
+  "logo": {
+    "light": "/logo-dark.png",
+    "dark": "/logo-light.png"
+  },
+  "github": "mxttwoods/woodsm-bot",
+  "twitter": "@mxttwoods"
+}

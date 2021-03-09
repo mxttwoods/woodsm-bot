@@ -1,0 +1,18 @@
+# https://nodejs.org/en/docs/guides/nodejs-docker-webapp/
+FROM node:slim
+
+# Create app directory
+WORKDIR /woodsm/
+
+# Copy /woodsm
+COPY . ./
+
+# Production install 
+RUN npm ci
+
+# Copy /src
+COPY src ./
+
+# Open 8080
+EXPOSE 8080
+CMD [ "npm", "start" ]
