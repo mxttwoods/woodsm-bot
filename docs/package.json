@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "@nuxt/content-theme-docs": "0.10.2",
-    "nuxt": "2.15.2"
+    "nuxt": "2.15.3"
   },
   "prettier": {
     "printWidth": 80,
