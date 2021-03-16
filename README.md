@@ -5,6 +5,13 @@
 
 > A Node.js Discord API bot
 
+- [WoodsM-Bot](#woodsm-bot)
+  - [Documentation](#documentation)
+    - [Install](#install)
+    - [Usage](#usage)
+    - [Author](#author)
+    - [License](#license)
+
 ## [Documentation](https://bot.woods.engineering/)
 
 ### Install
