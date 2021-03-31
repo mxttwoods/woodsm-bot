@@ -8,9 +8,9 @@
     "format": "npx prettier --write ."
   },
   "dependencies": {
-    "discord.js": "12.5.1",
+    "discord.js": "12.5.2",
     "dotenv": "8.2.0",
-    "mongoose": "5.12.2",
+    "mongoose": "5.12.3",
     "node-fetch": "2.6.1",
     "uglify-js": "3.13.3"
   },
