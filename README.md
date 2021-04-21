@@ -8,11 +8,9 @@
 
 ```sh
 cd woodsm
-```
 
-then
+# then
 
-```sh
 npm i
 ```
 
