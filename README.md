@@ -1,16 +1,6 @@
 # WoodsM-Bot
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
-[![Twitter: mxttwoods](https://img.shields.io/twitter/follow/mxttwoods.svg?style=social)](https://twitter.com/mxttwoods)
-
 > A Node.js Discord API bot
-
-- [WoodsM-Bot](#woodsm-bot)
-  - [Documentation](#documentation)
-    - [Install](#install)
-    - [Usage](#usage)
-    - [Author](#author)
-    - [License](#license)
 
 ## [Documentation](https://bot.woods.engineering/)
 
