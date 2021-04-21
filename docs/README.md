@@ -1,4 +1,4 @@
-# woodsm-bot-docs
+# WoodsM-Bot-Docs
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/ee5b7e60-a4b6-4a77-8283-c7ff1625ab3f/deploy-status)](https://app.netlify.com/sites/woodsm-bot/deploys)
 
