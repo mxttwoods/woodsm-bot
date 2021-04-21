@@ -1,8 +1,4 @@
 {
-  "groupName": "all dependencies",
-  "separateMajorMinor": false,
-  "automerge": true,
-  "lockFileMaintenance": {
-    "enabled": true
-  }
+  "extends": ["config:base"],
+  "automerge": true
 }
