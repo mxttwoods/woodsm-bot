@@ -10,7 +10,7 @@
   "dependencies": {
     "discord.js": "12.5.3",
     "dotenv": "8.2.0",
-    "mongoose": "5.12.5",
+    "mongoose": "5.12.6",
     "node-fetch": "2.6.1",
     "uglify-js": "3.13.4"
   },
