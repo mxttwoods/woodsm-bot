@@ -11,13 +11,14 @@ cd woodsm
 
 # then
 
-npm i
+yarn
 ```
 
 ### Usage
 
 ```sh
-npm start
+# with a proper config file
+yarn start
 ```
 
 ### Author

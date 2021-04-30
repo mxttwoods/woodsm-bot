@@ -1,10 +1,10 @@
 // import client library
-const Discord = require('discord.js');
+const Discord = require('discord.js')
 
 module.exports = {
   name: 'help',
   description: 'Reply with help information.',
-  execute(message) {
+  execute (message) {
     // inside a command, event listener, etc.
     const helpEmbed = new Discord.MessageEmbed()
       .setColor('#FF0000')
@@ -26,15 +26,15 @@ module.exports = {
       // .addField('Inline field title', 'Some value here', true)
       .addFields({
         name: 'Get help and read all available commands here',
-        value: 'https://bot.wooods.engineering/',
+        value: 'https://bot.wooods.engineering/'
       })
       // .setImage('https://img.icons8.com/fluent/48/000000/motherboard.png')
       .setTimestamp()
       .setFooter(
         'Woods Engineering',
         'https://img.icons8.com/fluent/48/000000/settings.png'
-      );
-    message.reply(helpEmbed);
-    message.react('🚀');
-  },
-};
+      )
+    message.reply(helpEmbed)
+    message.react('🚀')
+  }
+}

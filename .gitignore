@@ -1,6 +1,7 @@
 # Nx
 # See http://help.github.com/ignore-files/ for more about ignoring files.
-woodsm/src/index.js
+
+bot/src/index.js
 # compiled output
 /dist
 /tmp
@@ -40,7 +41,7 @@ testem.log
 Thumbs.db
 dist/**
 
-# Docs 
+# Docs
 node_modules
 *.iml
 .idea

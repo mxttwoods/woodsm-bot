@@ -2,15 +2,15 @@
 FROM node:slim
 
 # Create app directory
-WORKDIR /woodsm/
+WORKDIR /bot/
 
-# Copy /woodsm
+# Copy /bot/**
 COPY . ./
 
-# Production install 
-RUN npm ci
+# Install
+RUN yarn
 
-# Copy /src
+# Copy /src/**
 COPY src ./
 
 # Open 8080

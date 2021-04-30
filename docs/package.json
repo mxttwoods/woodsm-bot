@@ -13,7 +13,7 @@
   },
   "prettier": {
     "printWidth": 80,
-    "trailingComma": "es5",
+    "trailingComma": "none",
     "tabWidth": 2,
     "useTabs": false,
     "semi": true,
