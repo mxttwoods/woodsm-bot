@@ -7,7 +7,7 @@
 ### Install
 
 ```sh
-cd woodsm
+cd bot
 
 # then
 
