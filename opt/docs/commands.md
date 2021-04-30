@@ -1,22 +1,24 @@
 ---
-title: Reference
-description: 'Discord Commands'
-position: 5
-category: 'Commands'
+nav:
+  title: Commands
+  description: 'Discord Commands'
+  order: 5
+  category: 'Commands'
 ---
 
+<!-- markdownlint-disable MD025 -->
 <!-- markdownlint-disable MD033 -->
 <!-- markdownlint-disable MD030 -->
 
-[!Command](/commands) Modules Documentation
+# Commands
 
-## Commands
+[!Command](/commands) Modules Documentation
 
 A `command` is the string following the `!` character, anything after the command string is considered a argument.
 
-### !sum
+## !sum
 
-Reply with sum of all arguments
+Reply with the sum of all arguments
 <code-block label="Discord">
 
 ```bash
@@ -25,7 +27,7 @@ Reply with sum of all arguments
 
 </code-block>
 
-### !ping
+## !ping
 
 Reply with server latency
 <code-block label="Discord">
@@ -36,7 +38,7 @@ Reply with server latency
 
 </code-block>
 
-### !hello
+## !hello
 
 Reply with Hello World!
 <code-block label="Discord">
@@ -47,7 +49,7 @@ Reply with Hello World!
 
 </code-block>
 
-### !random
+## !random
 
 Reply with random slang
 <code-block label="Discord">
@@ -58,7 +60,7 @@ Reply with random slang
 
 </code-block>
 
-### !hoya
+## !hoya
 
 Reply with slang
 <code-block label="Discord">
@@ -69,7 +71,7 @@ Reply with slang
 
 </code-block>
 
-### !avatar
+## !avatar
 
 Reply with user's avatar
 <code-block label="Discord">
@@ -80,7 +82,7 @@ Reply with user's avatar
 
 </code-block>
 
-### !gif
+## !gif
 
 Reply with a gif
 <code-block label="Discord">
@@ -91,7 +93,7 @@ Reply with a gif
 
 </code-block>
 
-### !server
+## !server
 
 Reply with server info
 <code-block label="Discord">
@@ -104,7 +106,7 @@ Reply with server info
 
 </code-block>
 
-### !user
+## !user
 
 Reply with user info
 <code-block label="Discord">
@@ -115,7 +117,7 @@ Reply with user info
 
 </code-block>
 
-### !help
+## !help
 
 Reply with documentation link
 <code-block label="Discord">
@@ -126,7 +128,7 @@ Reply with documentation link
 
 </code-block>
 
-### !date
+## !date
 
 Reply with the date
 <code-block label="Discord">
@@ -137,7 +139,7 @@ Reply with the date
 
 </code-block>
 
-### !time
+## !time
 
 Reply with the time
 <code-block label="Discord">

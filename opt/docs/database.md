@@ -1,16 +1,18 @@
 ---
-title: MongoDB
-description: 'Database Usage'
-position: 5
-category: 'Documentation'
+nav:
+  title: MongoDB
+  description: 'Database Usage'
+  order: 5
+  category: 'Documentation'
 ---
 
+<!-- markdownlint-disable MD025 -->
 <!-- markdownlint-disable MD033 -->
 <!-- markdownlint-disable MD030 -->
 
-[MongoDB](https://mongodb.com/) and the [WoodsM-Bot](/)
+# Database
 
-## Commands
+[MongoDB](https://mongodb.com/) and the [discord-bot](/)
 
 Database development commands:
 
@@ -40,7 +42,7 @@ Example Record:
 
 ```json
 {
-  "_id": {"$oid": "60286f2f03220bf138397f5b"},
+  "_id": { "$oid": "60286f2f03220bf138397f5b" },
   "command": "hello",
   "args": "",
   "time": "Sat Feb 13 2021 7:29:13 PM",

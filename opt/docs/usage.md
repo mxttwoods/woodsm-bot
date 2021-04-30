@@ -1,19 +1,20 @@
 ---
-title: Project
-description: 'Project Usage'
-position: 2
-category: 'Documentation'
+nav:
+  title: Project
+  description: 'Project Usage'
+  order: 2
+  category: 'Documentation'
 ---
 
+<!-- markdownlint-disable MD025 -->
 <!-- markdownlint-disable MD033 -->
 <!-- markdownlint-disable MD030 -->
 
-Installation and Usage of the [WoodsM-Bot](/)
+# Usage
+
+Installation and Usage of the [discord-bot](/)
 
 - [Source](https://github.com/mxttwoods/woodsm-bot)
-- [Docker Image](https://hub.docker.com/repository/docker/mtwoods/woodsm-bot)
-
-## Commands
 
 Common NPM commands:
 <code-block label="NPM" active>
@@ -48,21 +49,25 @@ npm help npm # npm involved overview
 
 ## Scripts
 
-Then, to `./woodsm/package.json` one will notice there are several more commands:
+Then, to `./bot/package.json` one will notice there are several more commands:
 
 ```json
 {
-  "name": "woodsm",
-  "version": "1.1.0",
+  "name": "discord-bot",
+  "version": "0.0.1",
+  "main": "src/main.js",
   "scripts": {
-    "start": "node src/main.js",
-    "format": "cd .. && npx prettier --write ."
+    "start": "node .",
+    "format": "standard --fix"
   },
   "dependencies": {
-    "discord.js": "12.5.1",
+    "discord.js": "12.5.3",
     "dotenv": "8.2.0",
-    "mongoose": "5.11.16",
+    "mongoose": "5.12.7",
     "node-fetch": "2.6.1"
+  },
+  "devDependencies": {
+    "standard": "16.0.3"
   }
 }
 ```

@@ -17,7 +17,7 @@ yarn
 ### Usage
 
 ```sh
-# with a proper config file
+# with a proper .env file
 yarn start
 ```
 

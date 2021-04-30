@@ -1,19 +1,20 @@
 ---
-title: Docker
-description: 'Docker Usage'
-position: 4
-category: 'Documentation'
+nav:
+  title: Docker
+  description: 'Docker Usage'
+  order: 4
+  category: 'Documentation'
 ---
 
+<!-- markdownlint-disable MD025 -->
 <!-- markdownlint-disable MD033 -->
 <!-- markdownlint-disable MD030 -->
 
-[Docker](https://docs.docker.com/) and the [WoodsM-Bot](/)
+# Docker
 
-- [Docker Image](https://hub.docker.com/repository/docker/mtwoods/woodsm-bot)
+[Docker](https://docs.docker.com/) and the [discord-bot](/)
+
 - [Source](https://github.com/mxttwoods/woodsm-bot)
-
-## Commands
 
 Container development commands:
 
@@ -21,14 +22,14 @@ Container development commands:
 
 ```bash
 # Docker Build
-docker build -t mtwoods/woodsm-bot:latest .
+docker build -t mtwoods/discord-bot:latest .
   # build with tag latest
 
 # List Images
 docker images # list all images
 
 # Docker Run
-docker run -p <sys port>:<app port> -d mtwoods/woodsm-bot
+docker run -p <sys port>:<app port> -d mtwoods/discord-bot
   # run container with tag ...
 
 # List Container ID

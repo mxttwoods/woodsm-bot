@@ -15,4 +15,6 @@ COPY src ./
 
 # Open 8080
 EXPOSE 8080
+
+# Start
 CMD [ "npm", "start" ]

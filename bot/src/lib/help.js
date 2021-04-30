@@ -9,7 +9,7 @@ module.exports = {
     const helpEmbed = new Discord.MessageEmbed()
       .setColor('#FF0000')
       .setTitle('WoodsM-Bot Help')
-      .setURL('https://bot.wooods.engineering/')
+      .setURL('https://bot.woods.engineering/')
       .setAuthor(
         'Woods Engineering',
         'https://img.icons8.com/fluent/48/000000/about.png',

@@ -1,4 +1,4 @@
-const replies = ['yerrrrr', 'ykwtfgo!', 'fbgm', 'hoooyyyaaa']
+const replies = ['yerrrrr', 'YO!', 'Whatzzzzz up?', 'hoooyyyaaa']
 
 module.exports = {
   name: 'random',
