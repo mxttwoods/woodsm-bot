@@ -1,6 +1,6 @@
 ---
 nav:
-  title: Project
+  title: Usage
   description: 'Project Usage'
   order: 2
   category: 'Documentation'
