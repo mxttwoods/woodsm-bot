@@ -2,6 +2,7 @@
   "name": "discord-bot",
   "version": "0.0.1",
   "main": "src/main.js",
+  "license": "MIT",
   "scripts": {
     "start": "node .",
     "format": "standard --fix"

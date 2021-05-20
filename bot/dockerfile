@@ -17,4 +17,4 @@ COPY src ./
 EXPOSE 8080
 
 # Start
-CMD [ "npm", "start" ]
+CMD [ "yarn", "start" ]

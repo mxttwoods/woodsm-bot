@@ -48,7 +48,6 @@ node_modules
 *.log*
 .nuxt
 .vscode
-.DS_Store
 coverage
 dist
 sw.*
@@ -74,7 +73,6 @@ pids
 lib-cov
 
 # Coverage directory used by tools like istanbul
-coverage
 *.lcov
 
 # nyc test coverage
@@ -124,7 +122,6 @@ typings/
 .yarn-integrity
 
 # dotenv environment variables file
-.env
 .env.test
 
 # parcel-bundler cache (https://parceljs.org/)
@@ -134,8 +131,6 @@ typings/
 .next
 
 # Nuxt.js build / generate output
-.nuxt
-dist
 
 # Gatsby files
 .cache/
@@ -159,4 +154,3 @@ dist
 .tern-port
 
 # misc
-.DS_Store

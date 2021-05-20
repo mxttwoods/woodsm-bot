@@ -10,14 +10,12 @@ module.exports = {
       return parseFloat(x)
     })
     const sum = numArgs.reduce((counter, x) => {
-      return (counter += x)
+      return counter + x
     })
     if (!Number.isNaN(sum)) {
       message.reply(`The sum of all the arguments you provided is -> ${sum}!`)
     } else {
-      message.reply(
-        `You didn't provide any arguments with a valid typeof: <int> -> '${message}'!`
-      )
+      message.reply(`You didn't provide any arguments with a valid typeof: <int> -> '${message}'!`)
     }
   }
 }

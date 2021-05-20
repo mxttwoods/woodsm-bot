@@ -16,10 +16,11 @@ module.exports = {
       const response = await fetch(url)
       const json = await response.json()
       const index = Math.floor(Math.random() * json.results.length)
-      message.channel.send(json.results[index].url)
-      message.react('😄')
-      message.reply('I found this GIF')
+      await message.channel.send(json.results[index].url)
+      await message.react('😄')
+      await message.reply('I found this GIF')
     }
+
     getGif(args)
   }
 }
