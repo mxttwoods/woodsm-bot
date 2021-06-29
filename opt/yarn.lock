@@ -488,10 +488,10 @@
     react-router-dom "5.2.0"
     regenerator-runtime "0.13.5"
 
-"@umijs/preset-dumi@1.1.20":
-  version "1.1.20"
-  resolved "https://registry.yarnpkg.com/@umijs/preset-dumi/-/preset-dumi-1.1.20.tgz#e4e5ff1b59523ae0cc7c495ffc5933f136442d7c"
-  integrity sha512-VO7NuKcosi2S4o4HVAbdJIaXYVZrcqk+6Ie+c6n7x4d6giqHKZjYImTciWyBjiponvl2E/fkFboj++wnSw/rzA==
+"@umijs/preset-dumi@1.1.22":
+  version "1.1.22"
+  resolved "https://registry.yarnpkg.com/@umijs/preset-dumi/-/preset-dumi-1.1.22.tgz#1b5009018049fd0bf5f04dd53b80b83f4d611a85"
+  integrity sha512-UNezrtMRpwKGnQW3M6MVBqQjMADPIDz1+mF+6F3Skd2qbOKkhdg4uV59Wd8Lmd4t4MbC1q0JlVk8HjCAYpHYgw==
   dependencies:
     "@babel/core" "^7.7.2"
     "@babel/generator" "^7.7.2"
@@ -507,7 +507,7 @@
     copy-text-to-clipboard "^2.2.0"
     deepmerge "^4.2.2"
     dumi-assets-types "1.0.0"
-    dumi-theme-default "1.1.3"
+    dumi-theme-default "1.1.5"
     enhanced-resolve "^4.1.1"
     github-slugger "^1.3.0"
     hast-util-has-property "^1.0.4"
@@ -518,7 +518,7 @@
     hosted-git-info "^3.0.2"
     js-yaml "^3.13.1"
     lz-string "^1.4.4"
-    react-docgen-typescript "^1.20.5"
+    react-docgen-typescript-dumi-tmp "^1.22.1-0"
     rehype-autolink-headings "^4.0.0"
     rehype-mathjax "^3.1.0"
     rehype-remove-comments "^4.0.2"
@@ -1320,21 +1320,21 @@ dumi-assets-types@1.0.0:
   resolved "https://registry.yarnpkg.com/dumi-assets-types/-/dumi-assets-types-1.0.0.tgz#d5368cb11045b203bf1ef1080e553b2287a2ec81"
   integrity sha512-7nhSeWM15vybbUAMPLZsdls2jKoHB2UU4P1RM6kLPucuS8eC/HSmufquFqTTYtX4oIDLHGtil/dVtMreNGwhdA==
 
-dumi-theme-default@1.1.3:
-  version "1.1.3"
-  resolved "https://registry.yarnpkg.com/dumi-theme-default/-/dumi-theme-default-1.1.3.tgz#645181e2741391a6cb0d5ace2739b10e99444909"
-  integrity sha512-5N/r7UsEh27Sw9B9toFAYbdv0fA8fwSKFW6JVCnDFgeQzeHkE8NJ5DjLBD/RRPsIUJTIzlQXqtI/1RUbPdw7iQ==
+dumi-theme-default@1.1.5:
+  version "1.1.5"
+  resolved "https://registry.yarnpkg.com/dumi-theme-default/-/dumi-theme-default-1.1.5.tgz#8771f2660050db02d43bde4f231ca0fc4fd53966"
+  integrity sha512-k9g4jmG6uiL672vw6cdvhr9N+BR29/clxLJKlqscI6Erapq/rMzntwC1WqWUt6J3evL7+8tmucNK4huauLY+5A==
   dependencies:
     prism-react-renderer "^1.1.1"
     prismjs "^1.21.0"
     rc-tabs "^11.7.1"
 
-dumi@1.1.20:
-  version "1.1.20"
-  resolved "https://registry.yarnpkg.com/dumi/-/dumi-1.1.20.tgz#7e7d8d5c960d8b1202a0cc476bd1ba9d55c42e91"
-  integrity sha512-xmg2rR/egKmDuq/H6q6ABwkIKBBnt0vL9bZzfEmbdndLJXgZQ6vt8kOegKPFdz9GZbW8FJFZ2SGrMqwLDwEC2g==
+dumi@1.1.22:
+  version "1.1.22"
+  resolved "https://registry.yarnpkg.com/dumi/-/dumi-1.1.22.tgz#d6834c6c44acadc568afe84002eb8843ca7ae58e"
+  integrity sha512-bLYkxZ02GCne8Gd/Q1o0zZWh7dWbs7ufNzxQKoDNkLZjvFPzHhq3ES/XNaCkkcl6YPnYwO0tvMh4vGSqDJklmQ==
   dependencies:
-    "@umijs/preset-dumi" "1.1.20"
+    "@umijs/preset-dumi" "1.1.22"
     umi "^3.0.0"
 
 ecc-jsbn@~0.1.1:
@@ -3336,10 +3336,10 @@ react-attr-converter@^0.3.1:
   resolved "https://registry.yarnpkg.com/react-attr-converter/-/react-attr-converter-0.3.1.tgz#4a2abf6d907b7ddae4d862dfec80e489ce41ad6e"
   integrity sha512-dSxo2Mn6Zx4HajeCeQNLefwEO4kNtV/0E682R1+ZTyFRPqxDa5zYb5qM/ocqw9Bxr/kFQO0IUiqdV7wdHw+Cdg==
 
-react-docgen-typescript@^1.20.5:
-  version "1.22.0"
-  resolved "https://registry.yarnpkg.com/react-docgen-typescript/-/react-docgen-typescript-1.22.0.tgz#00232c8e8e47f4437cac133b879b3e9437284bee"
-  integrity sha512-MPLbF8vzRwAG3GcjdL+OHQlhgtWsLTXs+7uJiHfEeT3Ur7IsZaNYqRTLQ9sj2nB6M6jylcPCeCmH7qbszJmecg==
+react-docgen-typescript-dumi-tmp@^1.22.1-0:
+  version "1.22.1-0"
+  resolved "https://registry.yarnpkg.com/react-docgen-typescript-dumi-tmp/-/react-docgen-typescript-dumi-tmp-1.22.1-0.tgz#6f452de05c5c114a6e1dd60b34930afaa7ae39a0"
+  integrity sha512-wjuAm1yj+ZZucovow2VF0MXkH2SGZ+squZxfNdnam3oyUbHy/xZaU1ZabCn7rY+13ZFx0/NLda+ZuBgF3g8vBA==
 
 react-dom@16.x:
   version "16.14.0"
