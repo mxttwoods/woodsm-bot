@@ -488,10 +488,10 @@
     react-router-dom "5.2.0"
     regenerator-runtime "0.13.5"
 
-"@umijs/preset-dumi@1.1.28":
-  version "1.1.28"
-  resolved "https://registry.yarnpkg.com/@umijs/preset-dumi/-/preset-dumi-1.1.28.tgz#c2bb7ff5e01828388f7ba32f1c17255cb117d284"
-  integrity sha512-S1ta8LgsJlaWnnju7a3DT6PsHayIaiFAbpXfHPtCzqFjvYAFNunep99QyVU2AmJxyEWoVfK6FonX5yfHfuoJAA==
+"@umijs/preset-dumi@1.1.29":
+  version "1.1.29"
+  resolved "https://registry.yarnpkg.com/@umijs/preset-dumi/-/preset-dumi-1.1.29.tgz#abbb462e7ce40e1ce1939246547722e594c97206"
+  integrity sha512-fLKtLunsyZ2uJh6/tqVpDECuDAv8S0zJiS5nKeUpA2s9f8n90FdNsh26p0ZM7AOsvtYIpLxZoRUUNKax/ZQQdw==
   dependencies:
     "@babel/core" "^7.7.2"
     "@babel/generator" "^7.7.2"
@@ -507,7 +507,7 @@
     copy-text-to-clipboard "^2.2.0"
     deepmerge "^4.2.2"
     dumi-assets-types "1.0.0"
-    dumi-theme-default "1.1.11"
+    dumi-theme-default "1.1.12"
     enhanced-resolve "^4.1.1"
     github-slugger "^1.3.0"
     hast-util-has-property "^1.0.4"
@@ -1308,21 +1308,21 @@ dumi-assets-types@1.0.0:
   resolved "https://registry.yarnpkg.com/dumi-assets-types/-/dumi-assets-types-1.0.0.tgz#d5368cb11045b203bf1ef1080e553b2287a2ec81"
   integrity sha512-7nhSeWM15vybbUAMPLZsdls2jKoHB2UU4P1RM6kLPucuS8eC/HSmufquFqTTYtX4oIDLHGtil/dVtMreNGwhdA==
 
-dumi-theme-default@1.1.11:
-  version "1.1.11"
-  resolved "https://registry.yarnpkg.com/dumi-theme-default/-/dumi-theme-default-1.1.11.tgz#f9dc7eaf79d9bb920725898d6f8b74746f5bbf82"
-  integrity sha512-VyOp1PwOC0LKWl1PWd3i6XVuzunA4BFsOm/4tu2OJSzHkykCqWDYFx2yTVM7NWJ0KKKRwmhcm2RK//05DyQLtA==
+dumi-theme-default@1.1.12:
+  version "1.1.12"
+  resolved "https://registry.yarnpkg.com/dumi-theme-default/-/dumi-theme-default-1.1.12.tgz#8257df585b660737b0a5b6329dab2f050297a2a6"
+  integrity sha512-WkKY7Oww1hmjqFVk+SSfrauEb7VDrAlzxw9qf+HoHK2/4DGYpYpzXShWyuRGZeusWkpgzUHUqHLGq41VFVYvVg==
   dependencies:
     prism-react-renderer "^1.1.1"
     prismjs "^1.21.0"
     rc-tabs "^11.7.1"
 
-dumi@1.1.28:
-  version "1.1.28"
-  resolved "https://registry.yarnpkg.com/dumi/-/dumi-1.1.28.tgz#0f26e59a0d145fd5aaed84e3db85b422200d41a7"
-  integrity sha512-PoQ9XmqePw5hy8RrG7oJ+tEYvHSS5b16JcYRnV60ctvy3M9ZwWP7Ve34BMt06xGSVAWRSLlcWM5yFWbTKS8eRw==
+dumi@1.1.29:
+  version "1.1.29"
+  resolved "https://registry.yarnpkg.com/dumi/-/dumi-1.1.29.tgz#f2662651d63b1c6431c8d898dddde83703efaa85"
+  integrity sha512-OkX0Bo7n/TZdyTAt9jos3quoBtFfkfIxxhc2xLB7DqJCXytm1GoxTXcQGHpR3V/G3bPMoT7u5BO9EGOK9Y+Mtw==
   dependencies:
-    "@umijs/preset-dumi" "1.1.28"
+    "@umijs/preset-dumi" "1.1.29"
     umi "^3.0.0"
 
 ecc-jsbn@~0.1.1:
