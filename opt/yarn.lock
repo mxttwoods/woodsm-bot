@@ -488,10 +488,10 @@
     react-router-dom "5.2.0"
     regenerator-runtime "0.13.5"
 
-"@umijs/preset-dumi@1.1.40":
-  version "1.1.40"
-  resolved "https://registry.yarnpkg.com/@umijs/preset-dumi/-/preset-dumi-1.1.40.tgz#2ac29aadce3c1d669fe14a5e8ae95c0ca7442d46"
-  integrity sha512-ovT7fsIRJ+oAaXthOyiftIUJCl0E27EVVBfwoaRN+nHG3I07QeYQ8+4nwEiuDVWC+QjjASmPNssuTBYZdrX6og==
+"@umijs/preset-dumi@1.1.42":
+  version "1.1.42"
+  resolved "https://registry.yarnpkg.com/@umijs/preset-dumi/-/preset-dumi-1.1.42.tgz#e443a14a81118436c37df7093d58886bab462163"
+  integrity sha512-1YODNEN0HTD2fE6kkRT/sJtmLF5Frp6KClE0oOtD+Izmov95ZwjhPXPj4bVdzsMxCNhJmh83r06uaPKeIgTAAg==
   dependencies:
     "@babel/core" "^7.7.2"
     "@babel/generator" "^7.7.2"
@@ -1320,12 +1320,12 @@ dumi-theme-default@1.1.21:
     rc-tabs "^11.7.1"
     rc-tree "^5.2.0"
 
-dumi@1.1.40:
-  version "1.1.40"
-  resolved "https://registry.yarnpkg.com/dumi/-/dumi-1.1.40.tgz#c6e67cf06977278584931330dc2a5fa3265558e6"
-  integrity sha512-ixIGr2zdcpAOjC7Oa0fGMRewaQIYo57eRRcL2i+8F1mBD7WaFECb9JD9Vrvb2ox7+d4bXcgaOe3K00acpOU0JQ==
+dumi@1.1.42:
+  version "1.1.42"
+  resolved "https://registry.yarnpkg.com/dumi/-/dumi-1.1.42.tgz#e5b205ac2fc9657f6d7bb2330349c02f7785a13a"
+  integrity sha512-zOcuEv696WaoTkZFUvUAD9Ig3v3lXS1GvD8dEgUNXmd0gi6sEgEwTEjk+r3MXa3GeNgi1XBHy6S/zLfTs1YSuw==
   dependencies:
-    "@umijs/preset-dumi" "1.1.40"
+    "@umijs/preset-dumi" "1.1.42"
     umi "^3.0.0"
 
 ecc-jsbn@~0.1.1:
