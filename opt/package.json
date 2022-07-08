@@ -9,7 +9,7 @@
   "module": "dist/index.esm.js",
   "typings": "dist/index.d.ts",
   "devDependencies": {
-    "dumi": "1.1.44",
+    "dumi": "1.1.45",
     "tslib": "2.4.0"
   }
 }
