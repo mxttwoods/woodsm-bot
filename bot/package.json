@@ -11,7 +11,7 @@
     "discord.js": "14.0.2",
     "dotenv": "16.0.1",
     "mongoose": "6.4.5",
-    "node-fetch": "3.2.8"
+    "node-fetch": "3.2.9"
   },
   "devDependencies": {
     "standard": "17.0.0"
