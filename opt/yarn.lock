@@ -560,10 +560,10 @@
     react-router-dom "5.2.0"
     regenerator-runtime "0.13.5"
 
-"@umijs/preset-dumi@1.1.47":
-  version "1.1.47"
-  resolved "https://registry.yarnpkg.com/@umijs/preset-dumi/-/preset-dumi-1.1.47.tgz#b11927a182a465694db2926ab561dc4704a18797"
-  integrity sha512-yv3dzeMSCc5CjmRe8nkVtodNYcJefyRev3T+hhjx74hPtwxNOVlx7PsDov66xdnw9uWUNbfBL7c5g3xT1sCWJQ==
+"@umijs/preset-dumi@1.1.48":
+  version "1.1.48"
+  resolved "https://registry.yarnpkg.com/@umijs/preset-dumi/-/preset-dumi-1.1.48.tgz#5d51c8f24b58a26f6210aae898597ed518f44b30"
+  integrity sha512-FZokLi0qUBM7J+WNxfeb9/Hv5kMzwUexPveAUMyeIp+bqeN+kHWHZRrChQITqC0xBXSegqTTOeRH8+7qsUqKDA==
   dependencies:
     "@babel/core" "^7.7.2"
     "@babel/generator" "^7.7.2"
@@ -580,8 +580,8 @@
     codesandbox "^2.2.3"
     copy-text-to-clipboard "^2.2.0"
     deepmerge "^4.2.2"
-    dumi-assets-types "1.0.0"
-    dumi-theme-default "1.1.23"
+    dumi-assets-types "1.0.1"
+    dumi-theme-default "1.1.24"
     enhanced-resolve "^4.1.1"
     github-slugger "^1.3.0"
     hast-util-has-property "^1.0.4"
@@ -1772,15 +1772,15 @@ dot-prop@^4.2.1:
   dependencies:
     is-obj "^1.0.0"
 
-dumi-assets-types@1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/dumi-assets-types/-/dumi-assets-types-1.0.0.tgz#d5368cb11045b203bf1ef1080e553b2287a2ec81"
-  integrity sha512-7nhSeWM15vybbUAMPLZsdls2jKoHB2UU4P1RM6kLPucuS8eC/HSmufquFqTTYtX4oIDLHGtil/dVtMreNGwhdA==
+dumi-assets-types@1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/dumi-assets-types/-/dumi-assets-types-1.0.1.tgz#2990c9c300c2236cd1cb284c77da1c967ae2bb56"
+  integrity sha512-A+fJp7L+Q6nU5S2KgbdnyfRoCkAZy+UFudQ45QPM7W+3LIe8o+Tt0cURIQMnLZMBjoKbItB5IDi+IM39FwFZvQ==
 
-dumi-theme-default@1.1.23:
-  version "1.1.23"
-  resolved "https://registry.yarnpkg.com/dumi-theme-default/-/dumi-theme-default-1.1.23.tgz#1a71d5bae2939689d38b81e74dce91ec97daec09"
-  integrity sha512-XtxS0f9c0YToL2QBYjXtrvoZ9nmlWzA0zgLra7Joh8KNiK2c4UqYTh91dAThp0AbnFuG2eOxR7w/PxA8OyK4og==
+dumi-theme-default@1.1.24:
+  version "1.1.24"
+  resolved "https://registry.yarnpkg.com/dumi-theme-default/-/dumi-theme-default-1.1.24.tgz#d8eaab9f6b6442125dad2b8836bc29f66b3bbfe3"
+  integrity sha512-/fS7gBJejom1Zy1GZkrqG/dLEsCK6J/S/ctCPEawDC3KkZE0sJh+dqsMuhHt8ts7ZhaGhDpJNPXSMghfN/qrzw==
   dependencies:
     lodash.throttle "^4.1.1"
     prism-react-renderer "^1.1.1"
@@ -1790,12 +1790,12 @@ dumi-theme-default@1.1.23:
     rc-tree "^5.2.0"
     react-error-boundary "^3.1.4"
 
-dumi@1.1.47:
-  version "1.1.47"
-  resolved "https://registry.yarnpkg.com/dumi/-/dumi-1.1.47.tgz#91829fc0034c293328f1d2901fddaea0aa933c7a"
-  integrity sha512-K3eix0oxnAVQwoZlNUShg2/lZxRU515U3QoOJBdPQfiOPbPv1+/N/p17PHz1L/MBaFReb7UrhUalyb6jPd36og==
+dumi@1.1.48:
+  version "1.1.48"
+  resolved "https://registry.yarnpkg.com/dumi/-/dumi-1.1.48.tgz#0af811a42a98a0282f155b99c5d2ada633ef614d"
+  integrity sha512-vswVvRcMI5o6BlUzTT4zcOa3gBs9Zwels5jG6bTvac8ubshGlIa7/ubzxNkAbbyAGN9AJ/XzzlwA/2HzXhNINA==
   dependencies:
-    "@umijs/preset-dumi" "1.1.47"
+    "@umijs/preset-dumi" "1.1.48"
     umi "^3.0.0"
 
 duplexer3@^0.1.4:
