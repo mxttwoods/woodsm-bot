@@ -10,6 +10,6 @@
   "typings": "dist/index.d.ts",
   "devDependencies": {
     "dumi": "1.1.49",
-    "tslib": "2.4.0"
+    "tslib": "2.4.1"
   }
 }
