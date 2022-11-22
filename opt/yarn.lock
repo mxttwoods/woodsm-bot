@@ -2887,10 +2887,10 @@ dumi-assets-types@2.0.0-alpha.0:
   resolved "https://registry.yarnpkg.com/dumi-assets-types/-/dumi-assets-types-2.0.0-alpha.0.tgz#46bf619ed1cb6d27bbe6a9cfe4be51e5e9589981"
   integrity sha512-a/Y5lf0G6gwsEQ9hop/n03CcjmHsGBk384Cz/AEX6mRYrfSpUx/lQvP9HLoXkCzScl9PL1sSmLPnMkgaXDCZLA==
 
-dumi@2.0.3:
-  version "2.0.3"
-  resolved "https://registry.yarnpkg.com/dumi/-/dumi-2.0.3.tgz#2c0a48b59f5a0dc544e990df0e7e42a61e7874e2"
-  integrity sha512-fs8vNPN6/nAzq9FAMzPAXACW0+z2WjOdrsgFOt0uc2EHhgelciKg4cbTN9wJ9AM2CBHgnsgE+/w+ABL6brrxWw==
+dumi@2.0.4:
+  version "2.0.4"
+  resolved "https://registry.yarnpkg.com/dumi/-/dumi-2.0.4.tgz#a532ba9f14fea779a406df807148332cf5913223"
+  integrity sha512-BGD3oXScn+nQw1Xr+wzC885JT5bH9V4WhN0n7TbaVyvAAt5TswhTJGgONyZ98uFGqMTCJx55s3HK2s5jE7uHBw==
   dependencies:
     "@ant-design/icons-svg" "^4.2.1"
     "@makotot/ghostui" "^2.0.0"
@@ -2921,6 +2921,7 @@ dumi@2.0.3:
     mdast-util-to-string "^3.1.0"
     pluralize "^8.0.0"
     prism-react-renderer "^1.3.5"
+    prism-themes "^1.9.0"
     prismjs "^1.29.0"
     raw-loader "^4.0.2"
     rc-tabs "12.1.0-alpha.1"
@@ -6959,6 +6960,11 @@ prism-react-renderer@^1.3.5:
   version "1.3.5"
   resolved "https://registry.yarnpkg.com/prism-react-renderer/-/prism-react-renderer-1.3.5.tgz#786bb69aa6f73c32ba1ee813fbe17a0115435085"
   integrity sha512-IJ+MSwBWKG+SM3b2SUfdrhC+gu01QkV2KmRQgREThBfSQRoufqRfxfHUxpG1WcaFjP+kojcFyO9Qqtpgt3qLCg==
+
+prism-themes@^1.9.0:
+  version "1.9.0"
+  resolved "https://registry.yarnpkg.com/prism-themes/-/prism-themes-1.9.0.tgz#19c034f3205f1e28d75d89728e54ccd745f7e3dd"
+  integrity sha512-tX2AYsehKDw1EORwBps+WhBFKc2kxfoFpQAjxBndbZKr4fRmMkv47XN0BghC/K1qwodB1otbe4oF23vUTFDokw==
 
 prismjs@^1.29.0:
   version "1.29.0"
