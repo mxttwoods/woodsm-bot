@@ -2882,20 +2882,20 @@ dot-prop@^4.2.1:
   dependencies:
     is-obj "^1.0.0"
 
-dumi-afx-deps@^1.0.0-alpha.2:
-  version "1.0.0-alpha.2"
-  resolved "https://registry.yarnpkg.com/dumi-afx-deps/-/dumi-afx-deps-1.0.0-alpha.2.tgz#ab60cc01c2c86c4c6847757b2aaeff8432ba4718"
-  integrity sha512-wRXIPGG+Ebn2o85yqe0LxvuE67299LJbPFofU8ioFwYo2pJYFNbiWM3xBqughwh9CKI5OQdN7Stw1//BgXyE0A==
+dumi-afx-deps@^1.0.0-alpha.6:
+  version "1.0.0-alpha.6"
+  resolved "https://registry.yarnpkg.com/dumi-afx-deps/-/dumi-afx-deps-1.0.0-alpha.6.tgz#c7ad264ec4061344a9a0e38ed37d7daebdbfe263"
+  integrity sha512-PAstGjZTWoSEYOAtcmTUQ7mhN8l48t6rY0vaEmk5Tbjiuq2XBhp+bjXwhxlw7jUilXVamEQo5adHb6M7u13eEg==
 
 dumi-assets-types@2.0.0-alpha.0:
   version "2.0.0-alpha.0"
   resolved "https://registry.yarnpkg.com/dumi-assets-types/-/dumi-assets-types-2.0.0-alpha.0.tgz#46bf619ed1cb6d27bbe6a9cfe4be51e5e9589981"
   integrity sha512-a/Y5lf0G6gwsEQ9hop/n03CcjmHsGBk384Cz/AEX6mRYrfSpUx/lQvP9HLoXkCzScl9PL1sSmLPnMkgaXDCZLA==
 
-dumi@2.0.10:
-  version "2.0.10"
-  resolved "https://registry.yarnpkg.com/dumi/-/dumi-2.0.10.tgz#fa32d4a8da192a4739cdeddc72c0b23cf43cc486"
-  integrity sha512-A1r0aLrHKGp3SBlCaYdl/RTsOjwD5fNMR5Hy7bcAVS93apD1qiPgwh/KNHOACFs5bR0WFnQddRf59r3MlNsBZQ==
+dumi@2.0.11:
+  version "2.0.11"
+  resolved "https://registry.yarnpkg.com/dumi/-/dumi-2.0.11.tgz#2e07cee9cc600346596057fe04b34585ec3d7226"
+  integrity sha512-ENvRd2B4ic/Fz1RZtcANau8f2yeugt52F5ZQ2ffPpRV92W6wnqOsw4tIy/JgjTB1G3eiBMfJaNyrokaCCNKQgg==
   dependencies:
     "@ant-design/icons-svg" "^4.2.1"
     "@makotot/ghostui" "^2.0.0"
@@ -2908,7 +2908,7 @@ dumi@2.0.10:
     animated-scroll-to "^2.3.0"
     codesandbox "^2.2.3"
     deepmerge "^4.2.2"
-    dumi-afx-deps "^1.0.0-alpha.2"
+    dumi-afx-deps "^1.0.0-alpha.6"
     dumi-assets-types "2.0.0-alpha.0"
     enhanced-resolve "^5.10.0"
     estree-util-to-js "^1.1.0"
