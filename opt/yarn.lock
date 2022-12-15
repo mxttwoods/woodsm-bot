@@ -2267,6 +2267,11 @@ cipher-base@^1.0.0, cipher-base@^1.0.1, cipher-base@^1.0.3:
     inherits "^2.0.1"
     safe-buffer "^5.0.1"
 
+classnames@2.3.2:
+  version "2.3.2"
+  resolved "https://registry.yarnpkg.com/classnames/-/classnames-2.3.2.tgz#351d813bf0137fcc6a76a16b88208d2560a0d924"
+  integrity sha512-CSbhY4cFEJRe6/GQzIk5qXZ4Jeg5pcsP7b5peFSDpffpe1cqjASH/n9UTjBwOp6XpMSTwQ8Za2K5V02ueA7Tmw==
+
 classnames@2.x, classnames@^2.2.1, classnames@^2.2.6:
   version "2.3.1"
   resolved "https://registry.yarnpkg.com/classnames/-/classnames-2.3.1.tgz#dfcfa3891e306ec1dad105d0e88f4417b8535e8e"
@@ -2892,10 +2897,10 @@ dumi-assets-types@2.0.0-alpha.0:
   resolved "https://registry.yarnpkg.com/dumi-assets-types/-/dumi-assets-types-2.0.0-alpha.0.tgz#46bf619ed1cb6d27bbe6a9cfe4be51e5e9589981"
   integrity sha512-a/Y5lf0G6gwsEQ9hop/n03CcjmHsGBk384Cz/AEX6mRYrfSpUx/lQvP9HLoXkCzScl9PL1sSmLPnMkgaXDCZLA==
 
-dumi@2.0.12:
-  version "2.0.12"
-  resolved "https://registry.yarnpkg.com/dumi/-/dumi-2.0.12.tgz#ad78d1c286a242d86e4a10d97506b1e0002a87af"
-  integrity sha512-Pfg3mJzR9t0WD7VoPJQc58LFUHKHyM1gTPgEDRHY1CaBdNoJBnQ0RbbBlNYYpGKlzASioLbZfyWE6bWHAdjWpQ==
+dumi@2.0.14:
+  version "2.0.14"
+  resolved "https://registry.yarnpkg.com/dumi/-/dumi-2.0.14.tgz#f0c9e0281ad2eddae0abd4a1cd092d83556d1425"
+  integrity sha512-YPUbPdpTrpFq3oV4pcYxCsGAYRPrh/18zgKrFOSlT2rQwB+IQa3UPXuGRMp6w7OY1cMyLLGimoHHZXE7O0QOaQ==
   dependencies:
     "@ant-design/icons-svg" "^4.2.1"
     "@makotot/ghostui" "^2.0.0"
@@ -2906,6 +2911,7 @@ dumi@2.0.12:
     "@umijs/bundler-utils" "^4.0.33"
     "@umijs/core" "^4.0.33"
     animated-scroll-to "^2.3.0"
+    classnames "2.3.2"
     codesandbox "^2.2.3"
     deepmerge "^4.2.2"
     dumi-afx-deps "^1.0.0-alpha.6"
