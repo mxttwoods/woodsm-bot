@@ -2897,10 +2897,10 @@ dumi-assets-types@2.0.0-alpha.0:
   resolved "https://registry.yarnpkg.com/dumi-assets-types/-/dumi-assets-types-2.0.0-alpha.0.tgz#46bf619ed1cb6d27bbe6a9cfe4be51e5e9589981"
   integrity sha512-a/Y5lf0G6gwsEQ9hop/n03CcjmHsGBk384Cz/AEX6mRYrfSpUx/lQvP9HLoXkCzScl9PL1sSmLPnMkgaXDCZLA==
 
-dumi@2.0.17:
-  version "2.0.17"
-  resolved "https://registry.yarnpkg.com/dumi/-/dumi-2.0.17.tgz#c13cc347703f4b07dd1049b8e63b4ebcc09c0002"
-  integrity sha512-SnNX1vpILb5PTaeszb8bCMcZpT419zEv1xORZf/GIS0cEay7WAGTOoGycVdrsie/nPBYyQCpJih0ZR8gRu9tTg==
+dumi@2.0.18:
+  version "2.0.18"
+  resolved "https://registry.yarnpkg.com/dumi/-/dumi-2.0.18.tgz#5c27a52facdaeee3e32dfc262ee7ed93029335b8"
+  integrity sha512-b90imq+zVSFdG7+sPsE1NHWVEQhcFVyocqtyecXAXIQ89ns/QLoTk6JT1CmmRDtbFoaT3roAr76v0sfDyyKm9Q==
   dependencies:
     "@ant-design/icons-svg" "^4.2.1"
     "@makotot/ghostui" "^2.0.0"
