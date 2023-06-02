@@ -3445,10 +3445,10 @@ dumi-assets-types@2.0.0-alpha.0:
   resolved "https://registry.yarnpkg.com/dumi-assets-types/-/dumi-assets-types-2.0.0-alpha.0.tgz#46bf619ed1cb6d27bbe6a9cfe4be51e5e9589981"
   integrity sha512-a/Y5lf0G6gwsEQ9hop/n03CcjmHsGBk384Cz/AEX6mRYrfSpUx/lQvP9HLoXkCzScl9PL1sSmLPnMkgaXDCZLA==
 
-dumi@2.2.0:
-  version "2.2.0"
-  resolved "https://registry.yarnpkg.com/dumi/-/dumi-2.2.0.tgz#deab7bbad8a3ecbb254baaefef12c32ed4e3230f"
-  integrity sha512-bqtXpdQqMZYPYixXkomJ/8QT4Frk8PEd7MgbnLeqdcJJZq1pdRGDK7JO7AySd97Q7rJ0qJErJGw0sjE02alUzQ==
+dumi@2.2.1:
+  version "2.2.1"
+  resolved "https://registry.yarnpkg.com/dumi/-/dumi-2.2.1.tgz#3d31dc27a5c089c55287ae1975e8332e346bb4f3"
+  integrity sha512-9AU79JbFQ+hhkL2Y0XYEuSuwiyz+U2KcqstzI68n9BKYODP9VGs0UlfrHfd8W+8bSbiHTNXNz0eRbBdZBMswgQ==
   dependencies:
     "@ant-design/icons-svg" "^4.2.1"
     "@makotot/ghostui" "^2.0.0"
@@ -3480,6 +3480,7 @@ dumi@2.2.0:
     html2sketch "^1.0.1"
     js-yaml "^4.1.0"
     lodash.throttle "^4.1.1"
+    mdast-util-find-and-replace "^2.2.2"
     mdast-util-to-string "^3.1.0"
     nprogress "^0.2.0"
     pluralize "^8.0.0"
@@ -3496,7 +3497,6 @@ dumi@2.2.0:
     rehype-autolink-headings "^6.1.1"
     rehype-remove-comments "^5.0.0"
     rehype-stringify "^9.0.3"
-    remark-breaks "^3.0.2"
     remark-directive "^2.0.1"
     remark-frontmatter "^4.0.1"
     remark-gfm "^3.0.1"
@@ -6126,6 +6126,16 @@ mdast-util-find-and-replace@^2.0.0:
     unist-util-is "^5.0.0"
     unist-util-visit-parents "^5.0.0"
 
+mdast-util-find-and-replace@^2.2.2:
+  version "2.2.2"
+  resolved "https://registry.yarnpkg.com/mdast-util-find-and-replace/-/mdast-util-find-and-replace-2.2.2.tgz#cc2b774f7f3630da4bd592f61966fecade8b99b1"
+  integrity sha512-MTtdFRz/eMDHXzeK6W3dO7mXUlF82Gom4y0oOgvHhh/HXZAGvIQDUvQ0SuUx+j2tv44b8xTHOm8K/9OoRFnXKw==
+  dependencies:
+    "@types/mdast" "^3.0.0"
+    escape-string-regexp "^5.0.0"
+    unist-util-is "^5.0.0"
+    unist-util-visit-parents "^5.0.0"
+
 mdast-util-from-markdown@^1.0.0:
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/mdast-util-from-markdown/-/mdast-util-from-markdown-1.2.0.tgz#84df2924ccc6c995dec1e2368b2b208ad0a76268"
@@ -8378,15 +8388,6 @@ relateurl@^0.2.7:
   version "0.2.7"
   resolved "https://registry.yarnpkg.com/relateurl/-/relateurl-0.2.7.tgz#54dbf377e51440aca90a4cd274600d3ff2d888a9"
   integrity sha512-G08Dxvm4iDN3MLM0EsP62EDV9IuhXPR6blNz6Utcp7zyV3tr4HVNINt6MpaRWbxoOHT3Q7YN2P+jaHX8vUbgog==
-
-remark-breaks@^3.0.2:
-  version "3.0.2"
-  resolved "https://registry.yarnpkg.com/remark-breaks/-/remark-breaks-3.0.2.tgz#f466b9d3474d7323146c0149fc1496dabadd908e"
-  integrity sha512-x96YDJ9X+Ry0/JNZFKfr1hpcAKvGYWfUTszxY9RbxKEqq6uzPPoLCuHdZsLPZZUdAv3nCROyc7FPrQLWr2rxyw==
-  dependencies:
-    "@types/mdast" "^3.0.0"
-    unified "^10.0.0"
-    unist-util-visit "^4.0.0"
 
 remark-directive@^2.0.1:
   version "2.0.1"
