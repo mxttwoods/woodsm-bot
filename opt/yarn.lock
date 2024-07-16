@@ -4223,10 +4223,10 @@ dumi-assets-types@2.3.0:
   resolved "https://registry.yarnpkg.com/dumi-assets-types/-/dumi-assets-types-2.3.0.tgz#baf3a354e0593151a5c28d98059018c4cd6c7289"
   integrity sha512-mM6UoGTgTNoo8lA4dwaIwoeSGT+4PeQeiFylr2+kCB5z3/7NEf7lIM4tqrAsEyzecE/HX0+w7Z78hnFZQ9k5vQ==
 
-dumi@2.4.5:
-  version "2.4.5"
-  resolved "https://registry.yarnpkg.com/dumi/-/dumi-2.4.5.tgz#711a211421a34ef401512dc922a1fac1dde6e58b"
-  integrity sha512-ASMmVIrSbpZXKhqORSGYO4NH40o2MnLrPkWvJe+bJ6gTfpFnTsEkTM63Q+wrekEAGfPbPLRdSitxDqsFPlEuNw==
+dumi@2.4.6:
+  version "2.4.6"
+  resolved "https://registry.yarnpkg.com/dumi/-/dumi-2.4.6.tgz#09985627f86679015899fe9716926a6a940733b3"
+  integrity sha512-ly8Z8CwKoNvqqqzCXLtXPv7MECU3HgtGuc4r80FQ2O2/1IVmzI7gREfGGebohSnvuZTpGQx00XYFD2qbBuaziA==
   dependencies:
     "@ant-design/icons-svg" "^4.2.1"
     "@makotot/ghostui" "^2.0.0"
@@ -4248,7 +4248,7 @@ dumi@2.4.5:
     enhanced-resolve "^5.15.0"
     estree-util-to-js "^1.2.0"
     estree-util-visit "^1.2.1"
-    file-system-cache "^2.4.3"
+    file-system-cache "2.4.4"
     github-slugger "^1.5.0"
     hast-util-is-element "^2.1.3"
     hast-util-raw "^8.0.0"
@@ -5178,10 +5178,10 @@ file-name@^0.1.0:
   resolved "https://registry.yarnpkg.com/file-name/-/file-name-0.1.0.tgz#12b122f120f9c34dbc176c1ab81a548aced6def7"
   integrity sha512-Q8SskhjF4eUk/xoQkmubwLkoHwOTv6Jj/WGtOVLKkZ0vvM+LipkSXugkn1F/+mjWXU32AXLZB3qaz0arUzgtRw==
 
-file-system-cache@^2.4.3:
-  version "2.4.3"
-  resolved "https://registry.yarnpkg.com/file-system-cache/-/file-system-cache-2.4.3.tgz#6db5ebe70c4d924ef550440107393973b8b39c52"
-  integrity sha512-wBJ+ysm8ma2m7bNYKu72ZZ02LfypRg00AYdG9w2sbpOsu9KgHGQ4mJEGoAWYjAr+C+9jf1Q1ZwBqTB4Rdz0upA==
+file-system-cache@2.4.4:
+  version "2.4.4"
+  resolved "https://registry.yarnpkg.com/file-system-cache/-/file-system-cache-2.4.4.tgz#90eb72960e3d7b72d09768d4d4262c98f8d206b6"
+  integrity sha512-vCYhn8pb5nlC3Gs2FFCOkmf4NEg2Ym3ulJwkmS9o6p9oRShGj6CwTMFvpgZihBlsh373NaM0XgAgDHXQIlS4LQ==
   dependencies:
     "@types/fs-extra" "11.0.1"
     "@types/ramda" "0.29.3"
