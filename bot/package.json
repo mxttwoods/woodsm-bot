@@ -8,7 +8,7 @@
     "format": "standard --fix"
   },
   "dependencies": {
-    "discord.js": "14.24.1",
+    "discord.js": "14.24.2",
     "dotenv": "17.2.3",
     "mongoose": "8.19.2",
     "node-fetch": "3.3.2"
