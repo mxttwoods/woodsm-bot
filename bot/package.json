@@ -10,7 +10,7 @@
   "dependencies": {
     "discord.js": "14.25.0",
     "dotenv": "17.2.3",
-    "mongoose": "8.20.0",
+    "mongoose": "8.20.1",
     "node-fetch": "3.3.2"
   },
   "devDependencies": {
