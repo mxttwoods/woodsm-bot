@@ -1921,31 +1921,31 @@
   dependencies:
     "@types/yargs-parser" "*"
 
-"@umijs/ast@4.6.70":
-  version "4.6.70"
-  resolved "https://registry.yarnpkg.com/@umijs/ast/-/ast-4.6.70.tgz#c3076f90942a2ffaa15d049cd9c07dd5888acb4f"
-  integrity sha512-u0hCUwOzBZEHPYcj0Ht4C6MAkReoeOa9FiSBGNOfkrlmUJ99NiYTM1nsbduc6+Md0IbseHi85gbMhtHNbqaYEQ==
+"@umijs/ast@4.6.72":
+  version "4.6.72"
+  resolved "https://registry.yarnpkg.com/@umijs/ast/-/ast-4.6.72.tgz#38a619210f1346bff85c61d965bc68ecf03ffdfa"
+  integrity sha512-QFVH1igPd1k9SQQw6yLiJRys+VAEL4Cn8+3ndXSYQKt9HP9sBUbYPH3rAQhTXTb8V4cwtS5kbO57p29tHq1qAg==
   dependencies:
-    "@umijs/bundler-utils" "4.6.70"
+    "@umijs/bundler-utils" "4.6.72"
 
-"@umijs/babel-preset-umi@4.6.70":
-  version "4.6.70"
-  resolved "https://registry.yarnpkg.com/@umijs/babel-preset-umi/-/babel-preset-umi-4.6.70.tgz#1f5fc82022842e5723fcd2d2f4d1d6ae19d3b687"
-  integrity sha512-BoxJufNychS8D6w4ifLpB+VLYRDWil6gTaEflejWGB8vc9ZBQTu3UH08ogTMJ2w8gWgIJXExf+06EMF6O044eA==
+"@umijs/babel-preset-umi@4.6.72":
+  version "4.6.72"
+  resolved "https://registry.yarnpkg.com/@umijs/babel-preset-umi/-/babel-preset-umi-4.6.72.tgz#ea3c2738b6784d8e2accc12450a2dbaf540a3e49"
+  integrity sha512-ZaR1965mcf6OgWoSfye1QzYBaubj/n7ABT3NhgLpkTPec/f9s7P/rzatcgtqTUEBK/3GpxdXFSvU1vHYWXj5WA==
   dependencies:
     "@babel/runtime" "7.23.6"
     "@bloomberg/record-tuple-polyfill" "0.0.4"
-    "@umijs/bundler-utils" "4.6.70"
-    "@umijs/utils" "4.6.70"
+    "@umijs/bundler-utils" "4.6.72"
+    "@umijs/utils" "4.6.72"
     core-js "3.34.0"
 
-"@umijs/bundler-esbuild@4.6.70":
-  version "4.6.70"
-  resolved "https://registry.yarnpkg.com/@umijs/bundler-esbuild/-/bundler-esbuild-4.6.70.tgz#0b2a5130f762df4674b66b089792ec29568c55cd"
-  integrity sha512-fkYXhzJ0uu41qXFjAJqj+LrKjvnp/CgBP04ynZMCzFidioKQ0TDf6DLSmJhei5E8fwACBKoL65jgPecdJw80RQ==
+"@umijs/bundler-esbuild@4.6.72":
+  version "4.6.72"
+  resolved "https://registry.yarnpkg.com/@umijs/bundler-esbuild/-/bundler-esbuild-4.6.72.tgz#00507a2189f82893d53adead687ecf99709c4934"
+  integrity sha512-x4NPP/wNllDMmsIm+5LMbjNFnAM3EQJddZvlpeGiKVW6QKoipKG9L13dBMrJu+dGyL3ULFTyJyT+Xy/WZDHXHw==
   dependencies:
-    "@umijs/bundler-utils" "4.6.70"
-    "@umijs/utils" "4.6.70"
+    "@umijs/bundler-utils" "4.6.72"
+    "@umijs/utils" "4.6.72"
     enhanced-resolve "5.9.3"
     postcss "^8.4.21"
     postcss-flexbugs-fixes "5.0.2"
@@ -1969,12 +1969,12 @@
     rimraf "5.0.1"
     webpack-5-chain "8.0.1"
 
-"@umijs/bundler-utils@4.6.70", "@umijs/bundler-utils@^4.6.70":
-  version "4.6.70"
-  resolved "https://registry.yarnpkg.com/@umijs/bundler-utils/-/bundler-utils-4.6.70.tgz#f2224bd4f94928142b4384aa5884ca7b63deb58b"
-  integrity sha512-NQIYRoGtMbKAXs3zgmaN4O+zdkOEIZYbv+KzizzNXDwh4eeeIXHDDHAciOk05UoTzrjGQekZtVgH4KzoTgNDmw==
+"@umijs/bundler-utils@4.6.72", "@umijs/bundler-utils@^4.6.72":
+  version "4.6.72"
+  resolved "https://registry.yarnpkg.com/@umijs/bundler-utils/-/bundler-utils-4.6.72.tgz#164b82f99c7fddb41a0aa1be7c364de082313fd8"
+  integrity sha512-9L+9TzraXqOSC7eko1Vdl2l6+5RFaSiDHcR+rO5AGh6VdVldTJLoN8OJ1UM1YrUsoYL6g2Zd4wI1ZOK0NfKSrA==
   dependencies:
-    "@umijs/utils" "4.6.70"
+    "@umijs/utils" "4.6.72"
     esbuild "0.21.4"
     regenerate "^1.4.2"
     regenerate-unicode-properties "10.1.1"
@@ -1991,14 +1991,14 @@
     regenerate-unicode-properties "10.1.1"
     spdy "^4.0.2"
 
-"@umijs/bundler-utoopack@4.6.70":
-  version "4.6.70"
-  resolved "https://registry.yarnpkg.com/@umijs/bundler-utoopack/-/bundler-utoopack-4.6.70.tgz#d7c563f8c7915ec605a08647b555645a9d950798"
-  integrity sha512-u7+rHtaTu1htYcxpZR5iNa34ibN3cMdYWgmDIgZnYlkyu7aZf7anRuaIcUqV6m+LtbJl9ThLBShlivnC8IaUiA==
+"@umijs/bundler-utoopack@4.6.72":
+  version "4.6.72"
+  resolved "https://registry.yarnpkg.com/@umijs/bundler-utoopack/-/bundler-utoopack-4.6.72.tgz#57d4dd8cced863e4c6b78b212d41be2e6a94a30e"
+  integrity sha512-TGf0PIjYsch334WrKib5qughElQUXyANGddfSvbNAhHjhNLWaAdRqotYZX2uaz5e9Iw6EQf1A63g1XXFg5fEkw==
   dependencies:
-    "@umijs/bundler-utils" "4.6.70"
-    "@umijs/bundler-webpack" "4.6.70"
-    "@utoo/pack" "1.4.18"
+    "@umijs/bundler-utils" "4.6.72"
+    "@umijs/bundler-webpack" "4.6.72"
+    "@utoo/pack" "1.4.19"
     compression "^1.7.4"
     connect-history-api-fallback "^2.0.0"
     cors "^2.8.5"
@@ -2011,15 +2011,15 @@
     sass "1.54.0"
     sass-loader "13.2.0"
 
-"@umijs/bundler-vite@4.6.70":
-  version "4.6.70"
-  resolved "https://registry.yarnpkg.com/@umijs/bundler-vite/-/bundler-vite-4.6.70.tgz#8a44a4cad4cb97437321b88e90c7cd60316c45f1"
-  integrity sha512-uNqyynuV2Mh+Rbc7s/nYRPZpOuXRQHpguIZN5AYa+naVImJ9jIXgcuhVZtAfCR60zN72EGsAJqa0y3kUJJALZA==
+"@umijs/bundler-vite@4.6.72":
+  version "4.6.72"
+  resolved "https://registry.yarnpkg.com/@umijs/bundler-vite/-/bundler-vite-4.6.72.tgz#085d95849f9c6d9c50feec07112a909fe8fda4b9"
+  integrity sha512-wFtXnojOrWLTnYByi5yDabDEHpPm7xAXYYvX+PGQ1vF/W9q+6lVlNdGCOHGigJwnRsukSSbTagA42idnaFh2VQ==
   dependencies:
     "@svgr/core" "6.5.1"
-    "@umijs/bundler-utils" "4.6.70"
-    "@umijs/bundler-webpack" "4.6.70"
-    "@umijs/utils" "4.6.70"
+    "@umijs/bundler-utils" "4.6.72"
+    "@umijs/bundler-webpack" "4.6.72"
+    "@umijs/utils" "4.6.72"
     "@vitejs/plugin-react" "4.0.0"
     core-js "3.34.0"
     less "4.1.3"
@@ -2028,21 +2028,21 @@
     systemjs "^6.14.1"
     vite "4.5.2"
 
-"@umijs/bundler-webpack@4.6.70":
-  version "4.6.70"
-  resolved "https://registry.yarnpkg.com/@umijs/bundler-webpack/-/bundler-webpack-4.6.70.tgz#fdf2466a821504bef5e93c7b8e49aa76175c962f"
-  integrity sha512-FXybb1BIcWj+LBC5u2xNprGhqsX/QifRY9O7cuIkXjkaSlF/hIBcuxDlydJn7plMoi4QPV4R1SuW62BhkGNnvg==
+"@umijs/bundler-webpack@4.6.72":
+  version "4.6.72"
+  resolved "https://registry.yarnpkg.com/@umijs/bundler-webpack/-/bundler-webpack-4.6.72.tgz#ed2a482109138caf615e3e6c5c8a1faae8bcb0dc"
+  integrity sha512-d9VdK6/nJMyYDRvE1k5UhdZ5XcFsLtpRvPIHVnXYrstQHt8oCncRAW5uXSGKc80qaK5fZSPHoc8nOej+OcgIYw==
   dependencies:
     "@svgr/core" "6.5.1"
     "@svgr/plugin-jsx" "^6.5.1"
     "@svgr/plugin-svgo" "^6.5.1"
     "@types/hapi__joi" "17.1.9"
-    "@umijs/babel-preset-umi" "4.6.70"
-    "@umijs/bundler-utils" "4.6.70"
+    "@umijs/babel-preset-umi" "4.6.72"
+    "@umijs/bundler-utils" "4.6.72"
     "@umijs/case-sensitive-paths-webpack-plugin" "^1.0.1"
-    "@umijs/mfsu" "4.6.70"
+    "@umijs/mfsu" "4.6.72"
     "@umijs/react-refresh-webpack-plugin" "0.5.11"
-    "@umijs/utils" "4.6.70"
+    "@umijs/utils" "4.6.72"
     cors "^2.8.5"
     css-loader "6.7.1"
     es5-imcompatible-versions "^0.1.78"
@@ -2060,13 +2060,13 @@
   resolved "https://registry.yarnpkg.com/@umijs/case-sensitive-paths-webpack-plugin/-/case-sensitive-paths-webpack-plugin-1.0.1.tgz#02655299f52912289f2df28fbeaea636e748c1df"
   integrity sha512-kDKJ8yTarxwxGJDInG33hOpaQRZ//XpNuuznQ/1Mscypw6kappzFmrBr2dOYave++K7JHouoANF354UpbEQw0Q==
 
-"@umijs/core@4.6.70", "@umijs/core@^4.6.70":
-  version "4.6.70"
-  resolved "https://registry.yarnpkg.com/@umijs/core/-/core-4.6.70.tgz#7790ca962dce110dc2f031761510b3e1144cb4bc"
-  integrity sha512-kgmBkjk5B6G8SjDqAaZPsDLZKzZsNOD3KsxNiQlCQuEgjrMTnTlCZFGzwDNHxHmp2H8BFpNGw8GUx0VkF+eSeg==
+"@umijs/core@4.6.72", "@umijs/core@^4.6.72":
+  version "4.6.72"
+  resolved "https://registry.yarnpkg.com/@umijs/core/-/core-4.6.72.tgz#d8b6c8b500a06f2b3f2bce440a0bbd390ffc4174"
+  integrity sha512-dVwAhAXQPNFON9ZuMeC9RlgDk+5M4MF2wBJNS7qAlBCs445wYwsmbFkGvxpjoCvFhmjxtTA2+Za0REq5Wc7vyg==
   dependencies:
-    "@umijs/bundler-utils" "4.6.70"
-    "@umijs/utils" "4.6.70"
+    "@umijs/bundler-utils" "4.6.72"
+    "@umijs/utils" "4.6.72"
 
 "@umijs/did-you-know@^1.0.4":
   version "1.0.4"
@@ -2155,51 +2155,51 @@
     "@umijs/mako-win32-ia32-msvc" "0.11.10"
     "@umijs/mako-win32-x64-msvc" "0.11.10"
 
-"@umijs/mfsu@4.6.70":
-  version "4.6.70"
-  resolved "https://registry.yarnpkg.com/@umijs/mfsu/-/mfsu-4.6.70.tgz#39be8f68d61a237679c92036f022bad0707b75a2"
-  integrity sha512-UftG8CKIKZtgj2ddPdyLW7Jc+yKGCfQvPOR8klNlOBa1hCaDiALEkhrzIn+IIzkTE1LvwRYDz5L/ZngDd1Mm7w==
+"@umijs/mfsu@4.6.72":
+  version "4.6.72"
+  resolved "https://registry.yarnpkg.com/@umijs/mfsu/-/mfsu-4.6.72.tgz#7f7e3b456187dec469b97ee543cb557588858463"
+  integrity sha512-S9+rKD84pO7Rs1CovV/FBYaTO05ASld0Sieexx1jQIOX47rHVzy4guGKKQbS5/XrysgZKnj2mm6R3piMwO02uQ==
   dependencies:
-    "@umijs/bundler-esbuild" "4.6.70"
-    "@umijs/bundler-utils" "4.6.70"
-    "@umijs/utils" "4.6.70"
+    "@umijs/bundler-esbuild" "4.6.72"
+    "@umijs/bundler-utils" "4.6.72"
+    "@umijs/utils" "4.6.72"
     enhanced-resolve "5.9.3"
     is-equal "^1.6.4"
 
-"@umijs/plugin-run@4.6.70":
-  version "4.6.70"
-  resolved "https://registry.yarnpkg.com/@umijs/plugin-run/-/plugin-run-4.6.70.tgz#a8939f75422372699513d8ec459b27ed41d5abb1"
-  integrity sha512-pD8MqW6OG5ngS687uBz9U2b3+3xDBx93NdbwEMAxoqM4ldZTEtaoIlYxWSONSHsi8WzwAyE//qoLSb+5yvO7kA==
+"@umijs/plugin-run@4.6.72":
+  version "4.6.72"
+  resolved "https://registry.yarnpkg.com/@umijs/plugin-run/-/plugin-run-4.6.72.tgz#699bfb1114796d6f367bf3aaf12eba29931e4c42"
+  integrity sha512-nn0uCeq8Z7+zoFAfPHnzjRVLDHlYD8Kr1z5glyqmRVrv/waDayPdFNaD54VV2JkmrdWG9bYxQv2XZUugOlIeOg==
   dependencies:
-    "@umijs/utils" "4.6.70"
+    "@umijs/utils" "4.6.72"
     tsx "3.12.2"
 
-"@umijs/preset-umi@4.6.70":
-  version "4.6.70"
-  resolved "https://registry.yarnpkg.com/@umijs/preset-umi/-/preset-umi-4.6.70.tgz#5e48a47d971becc3545b5c15853193324e5e71b0"
-  integrity sha512-z8mflB5sreTUtgk3c7ctfzv4nUHYHwadz5h+aUeAMQPC3Tv2vRJOYl7u59CdeG9IquKzoAw/lOZejmfGQzti3Q==
+"@umijs/preset-umi@4.6.72":
+  version "4.6.72"
+  resolved "https://registry.yarnpkg.com/@umijs/preset-umi/-/preset-umi-4.6.72.tgz#0e7fc169bffd625fe25ba1ba8c231c9c2c5ff835"
+  integrity sha512-RakVaO6PxiJUkUqYUHmW1kMnyAjK6yIYntuZEMkBzgDXggidTgY6jqhNe7q+8QukyUY/AdJ2BkxrErndEAX9sA==
   dependencies:
     "@iconify/utils" "2.1.1"
     "@stagewise/toolbar" "0.6.2"
     "@svgr/core" "6.5.1"
-    "@umijs/ast" "4.6.70"
-    "@umijs/babel-preset-umi" "4.6.70"
-    "@umijs/bundler-esbuild" "4.6.70"
+    "@umijs/ast" "4.6.72"
+    "@umijs/babel-preset-umi" "4.6.72"
+    "@umijs/bundler-esbuild" "4.6.72"
     "@umijs/bundler-mako" "0.11.10"
-    "@umijs/bundler-utils" "4.6.70"
-    "@umijs/bundler-utoopack" "4.6.70"
-    "@umijs/bundler-vite" "4.6.70"
-    "@umijs/bundler-webpack" "4.6.70"
-    "@umijs/core" "4.6.70"
+    "@umijs/bundler-utils" "4.6.72"
+    "@umijs/bundler-utoopack" "4.6.72"
+    "@umijs/bundler-vite" "4.6.72"
+    "@umijs/bundler-webpack" "4.6.72"
+    "@umijs/core" "4.6.72"
     "@umijs/did-you-know" "^1.0.4"
     "@umijs/history" "5.3.1"
-    "@umijs/mfsu" "4.6.70"
-    "@umijs/plugin-run" "4.6.70"
-    "@umijs/renderer-react" "4.6.70"
-    "@umijs/server" "4.6.70"
+    "@umijs/mfsu" "4.6.72"
+    "@umijs/plugin-run" "4.6.72"
+    "@umijs/renderer-react" "4.6.72"
+    "@umijs/server" "4.6.72"
     "@umijs/ui" "3.0.1"
-    "@umijs/utils" "4.6.70"
-    "@umijs/zod2ts" "4.6.70"
+    "@umijs/utils" "4.6.72"
+    "@umijs/zod2ts" "4.6.72"
     babel-plugin-dynamic-import-node "2.3.3"
     babel-plugin-react-compiler "1.0.0"
     click-to-react-component "1.1.3"
@@ -2233,38 +2233,38 @@
     schema-utils "^3.0.0"
     source-map "^0.7.3"
 
-"@umijs/renderer-react@4.6.70":
-  version "4.6.70"
-  resolved "https://registry.yarnpkg.com/@umijs/renderer-react/-/renderer-react-4.6.70.tgz#29f35be841c7a8e6d6be1a51177e2b1e39e5c1d8"
-  integrity sha512-M1ZsvVlVN8nE9CjjEFQ/3l4uWLrGpa0ExpjtTPW7BwuMYgL5V/AJ6CG79zk9TfAexJ7Mkv7uP7SyP7DABoRj5A==
+"@umijs/renderer-react@4.6.72":
+  version "4.6.72"
+  resolved "https://registry.yarnpkg.com/@umijs/renderer-react/-/renderer-react-4.6.72.tgz#808dac8ac559eda7bcf2feecab41f879f1597b27"
+  integrity sha512-5qnTZ74mFIHJJ2pYqq15rF7+h0RvKfE+TG4pwF72/qS+dW7xRDkltQmm1OwpHiFPbOdwI9Oklzfm16kFBu4smQ==
   dependencies:
     "@babel/runtime" "7.23.6"
     "@loadable/component" "5.15.2"
-    "@umijs/server" "4.6.70"
+    "@umijs/server" "4.6.72"
     history "5.3.0"
     react-helmet-async "1.3.0"
     react-router-dom "6.3.0"
 
-"@umijs/server@4.6.70":
-  version "4.6.70"
-  resolved "https://registry.yarnpkg.com/@umijs/server/-/server-4.6.70.tgz#b3a50b99789b555471c5f388343292fae6f8bca0"
-  integrity sha512-AHz4WsTErLV8jXH3ubFF/ahYqm9eSiWIFjWmWJ3sUG8YONN0EiTd+ysQxggXDSZjbdgaUiLRV/vD/dwySjybqw==
+"@umijs/server@4.6.72":
+  version "4.6.72"
+  resolved "https://registry.yarnpkg.com/@umijs/server/-/server-4.6.72.tgz#097317bcf99d5a682ec5ea1b3347219af624d1a9"
+  integrity sha512-OVd4zh8xQ4q0h2Zhd+tG93eKmiRcQYyUrPnUb8Gqm83QAndWdjeJ6Z5hmJsCiaxubrW4vIe8QeqgctNuv5OG8A==
   dependencies:
-    "@umijs/bundler-utils" "4.6.70"
+    "@umijs/bundler-utils" "4.6.72"
     history "5.3.0"
     react "18.3.1"
     react-dom "18.3.1"
     react-router-dom "6.3.0"
 
-"@umijs/test@4.6.70":
-  version "4.6.70"
-  resolved "https://registry.yarnpkg.com/@umijs/test/-/test-4.6.70.tgz#80a630bc2ab215c0c8b01a9895fdebe27d0f1ab8"
-  integrity sha512-J2NVtjul72N6tvryDCIg0XH0P7215u83QKzvg7l0LbILYVRuLucIAKL14NMOBkQNObO37DxwgC10AzN8vL1Aog==
+"@umijs/test@4.6.72":
+  version "4.6.72"
+  resolved "https://registry.yarnpkg.com/@umijs/test/-/test-4.6.72.tgz#5f073fc467b3edcd008b2802ee35d088caf25221"
+  integrity sha512-CosohjmF0h4beBiE4s4Zzb3sC98pocaBqrfolFiGGmXBDM9gYuh87AF7u+yj8qjR2sW9Y9SjI6kLHuWEWu1B0w==
   dependencies:
     "@babel/plugin-transform-modules-commonjs" "7.23.3"
     "@jest/types" "27.5.1"
-    "@umijs/bundler-utils" "4.6.70"
-    "@umijs/utils" "4.6.70"
+    "@umijs/bundler-utils" "4.6.72"
+    "@umijs/utils" "4.6.72"
     babel-jest "^29.7.0"
     esbuild "0.21.4"
     identity-obj-proxy "3.0.0"
@@ -2283,72 +2283,72 @@
     chokidar "3.5.3"
     pino "7.11.0"
 
-"@umijs/utils@4.6.70", "@umijs/utils@^4.6.70":
-  version "4.6.70"
-  resolved "https://registry.yarnpkg.com/@umijs/utils/-/utils-4.6.70.tgz#a9ed323492a419b3b323d3e488a3ec838de43d0d"
-  integrity sha512-Ld7ZOqakYSol59yAxoxC+wZyTY74qoAWXq8FY5SRg1j69tJq+4iKOp2FM/AVqW7EZkN9iIlruCNoWpYB8jgmJA==
+"@umijs/utils@4.6.72", "@umijs/utils@^4.6.72":
+  version "4.6.72"
+  resolved "https://registry.yarnpkg.com/@umijs/utils/-/utils-4.6.72.tgz#3a84aec46fffba4747c40611f1cc4c6eaaf1d9a4"
+  integrity sha512-govh2/MDRIpwEOYgQRPIu7r8Dbe+++sZGnuN778ffNUsUKhvGaWYGyrJR/7Sj0VNWWgIjGYmrMLyfOLOdBIskw==
   dependencies:
     chokidar "3.5.3"
     pino "7.11.0"
 
-"@umijs/zod2ts@4.6.70":
-  version "4.6.70"
-  resolved "https://registry.yarnpkg.com/@umijs/zod2ts/-/zod2ts-4.6.70.tgz#c704cf10380727b58abade5c99bc1aa67a094492"
-  integrity sha512-31B2g9M8zswAdR0CFcIrHbVwgYI0y+/lO37cfTdMJhwzIHIsGTRE5OeoCGGPYMEV4Wz+mTpYK7/1s5jkwieBVw==
+"@umijs/zod2ts@4.6.72":
+  version "4.6.72"
+  resolved "https://registry.yarnpkg.com/@umijs/zod2ts/-/zod2ts-4.6.72.tgz#e6a5637accf6e53067463d901f0582278deec5aa"
+  integrity sha512-NWcArJVKKbtTjuOq6etdAVhvHm/DMxPck8h0N/hm1nhxsbclKyrGrbfybI0isBMk+2y20SRbdtuai8XvC/+Pjg==
 
-"@utoo/pack-darwin-arm64@1.4.18":
-  version "1.4.18"
-  resolved "https://registry.yarnpkg.com/@utoo/pack-darwin-arm64/-/pack-darwin-arm64-1.4.18.tgz#aed0f0bcd2f8a76d3e5c7430928e5ba99215f1f5"
-  integrity sha512-3yW9kJOwIQz8RyDcFLI8kKZ69h1JCN6prRNMLpXhSOs4FOEV1lpopldsFFs4R2nQWVOartpO8OvHcwoUIxgwUw==
+"@utoo/pack-darwin-arm64@1.4.19":
+  version "1.4.19"
+  resolved "https://registry.yarnpkg.com/@utoo/pack-darwin-arm64/-/pack-darwin-arm64-1.4.19.tgz#fddf62ba03e2208bda1dff96fc949cdb689fd0fa"
+  integrity sha512-2im5kjf/7tZ3ZoIiGHWYykk3FefGejMKvcR1Jmq93y0LYDgR78f29sb4T+IVv9TIjt2DclNMS4poJiYXB/fA9g==
 
-"@utoo/pack-darwin-x64@1.4.18":
-  version "1.4.18"
-  resolved "https://registry.yarnpkg.com/@utoo/pack-darwin-x64/-/pack-darwin-x64-1.4.18.tgz#cd018097744aac77d3aa67757841af99ed2d224e"
-  integrity sha512-zumwSaHafnpzr4InOkWDD6/UyECGqkz2Zb6wXu6c1nDB9lWZbL8yuqfCsAlrJev2doimfaT8D+Gtji92QpHxUQ==
+"@utoo/pack-darwin-x64@1.4.19":
+  version "1.4.19"
+  resolved "https://registry.yarnpkg.com/@utoo/pack-darwin-x64/-/pack-darwin-x64-1.4.19.tgz#74bfd87820883b9ffbb715ee825e26574df2fb27"
+  integrity sha512-fYO6fKJp8rQj3bAiYLzgRgiJC1cPSecQLiBTJB7Qm3DQl5odqYxLeM+3uqiBSulKnIPHZQsPXM02VwFl9XISOQ==
 
-"@utoo/pack-linux-arm64-gnu@1.4.18":
-  version "1.4.18"
-  resolved "https://registry.yarnpkg.com/@utoo/pack-linux-arm64-gnu/-/pack-linux-arm64-gnu-1.4.18.tgz#4fb6fc06127d7917fab55b02558df0c658deec0c"
-  integrity sha512-+Qqx70iAVIqXEhioBeUxkhRrYyg2Uf6W3lYnS1bd4HkHYhfIZ9unPL4mPiQsiOKT1fz4H98eG5AteM/DGb6m3g==
+"@utoo/pack-linux-arm64-gnu@1.4.19":
+  version "1.4.19"
+  resolved "https://registry.yarnpkg.com/@utoo/pack-linux-arm64-gnu/-/pack-linux-arm64-gnu-1.4.19.tgz#7c19402a9bd782b1d255b539fd649692a440f304"
+  integrity sha512-F/YVSevJNMqUq7sANVF6Ja9L2SM5ObZIauxna4RBUgehfi0mIT0bB8x7BLa2ztylpdaGvRrmim75OjidXRIWOw==
 
-"@utoo/pack-linux-arm64-musl@1.4.18":
-  version "1.4.18"
-  resolved "https://registry.yarnpkg.com/@utoo/pack-linux-arm64-musl/-/pack-linux-arm64-musl-1.4.18.tgz#746c6049cc25ba5fe4239f4400721a8d64c1d2c7"
-  integrity sha512-JBbnsegqY7ck1gNHo79Nb3zduNn3POePh5b+u31rss43KJaOJbDh1qOn8OyEQg77NH5YlfzORTc2xiJvrZxh+A==
+"@utoo/pack-linux-arm64-musl@1.4.19":
+  version "1.4.19"
+  resolved "https://registry.yarnpkg.com/@utoo/pack-linux-arm64-musl/-/pack-linux-arm64-musl-1.4.19.tgz#0e0dcde1479842f5c6ea4e932e0c71058b314119"
+  integrity sha512-LgcHkSAnlbWnVvDKMeXJGvrHTFNUvVtOZ5gSxa5wuzNhLObSOkqFcRtX5Lj4AddM1yArs9cmDtCJ7RddnuTqKw==
 
-"@utoo/pack-linux-x64-gnu@1.4.18":
-  version "1.4.18"
-  resolved "https://registry.yarnpkg.com/@utoo/pack-linux-x64-gnu/-/pack-linux-x64-gnu-1.4.18.tgz#5f3bf13a0ab4edc919bfeee3a396184ef28aabe4"
-  integrity sha512-2sUC/fMZ89WLdUdh0lBS1U5wNul1YrSu+EuIR6aAKjAy+ZouoKKWpQd1zHRvVCOS9w9JAdeuLh7Wx9ZPgEq2sg==
+"@utoo/pack-linux-x64-gnu@1.4.19":
+  version "1.4.19"
+  resolved "https://registry.yarnpkg.com/@utoo/pack-linux-x64-gnu/-/pack-linux-x64-gnu-1.4.19.tgz#35edadb8e85f0aecf1a047b1626869d1d8cbc780"
+  integrity sha512-axC0HdTgQaF5myOygxHTIE7Rn3fDK1ux8rd2GQ2NIiSoWNFG4DepPcf8RY3hdgNE6vj38/jWqqRu7My6qDe4iw==
 
-"@utoo/pack-linux-x64-musl@1.4.18":
-  version "1.4.18"
-  resolved "https://registry.yarnpkg.com/@utoo/pack-linux-x64-musl/-/pack-linux-x64-musl-1.4.18.tgz#ab9b3e2696ac818586b0a55141b8e1c434236d48"
-  integrity sha512-VNQCd3kN2GGyuoTKPOFImTEcgcXfefTlIg6lFTR1StkNUxWHzh7g7SDLcW/z7VczQ3GzqcvLxOXdtm5dASb8hw==
+"@utoo/pack-linux-x64-musl@1.4.19":
+  version "1.4.19"
+  resolved "https://registry.yarnpkg.com/@utoo/pack-linux-x64-musl/-/pack-linux-x64-musl-1.4.19.tgz#d127688dd18c582a43324fe1fec8cf44de0f2aac"
+  integrity sha512-pZZM53JvY1RJc/MzUszqiJ3bQ4+Gkk20KSMFG0tVTAl5BAeKCws5bybLqfbAuBerZ6NOoPFAiI74k/0AKG56Yw==
 
-"@utoo/pack-shared@1.4.18":
-  version "1.4.18"
-  resolved "https://registry.yarnpkg.com/@utoo/pack-shared/-/pack-shared-1.4.18.tgz#20684eadf35f16c4c546d1f14032267d4328a43a"
-  integrity sha512-YoH81yrqZ2QsJakLhSczeo3VuSLQowSpoT0ceSqZpAW7+FHWTJ1S4e2bJyEFYGy1RFTSb+IQgvayKl3IfdVzHw==
+"@utoo/pack-shared@1.4.19":
+  version "1.4.19"
+  resolved "https://registry.yarnpkg.com/@utoo/pack-shared/-/pack-shared-1.4.19.tgz#cbc58c7deeef814a9baefc79e0794f181e9ba48a"
+  integrity sha512-Ac6OPuZcaTAC1xDS4xeHUAJjqpNN+6qRV8XVOG2oDofX1LKZePCbHWUHg7y21eTv8JfcnBMEObROT+Ixvvyekw==
   dependencies:
     "@babel/code-frame" "7.22.5"
     picocolors "^1.1.1"
 
-"@utoo/pack-win32-x64-msvc@1.4.18":
-  version "1.4.18"
-  resolved "https://registry.yarnpkg.com/@utoo/pack-win32-x64-msvc/-/pack-win32-x64-msvc-1.4.18.tgz#eb70799a0ab0f83f5f56279798c8b3748c54bf2a"
-  integrity sha512-bS3dDj3q0kD6IIJ2zFmY9mbv/t97ShvxjVP9601G5AyH2WMna8fT4CehJWMKIFuuoMCc5uR9gbNZHw42/hh/sA==
+"@utoo/pack-win32-x64-msvc@1.4.19":
+  version "1.4.19"
+  resolved "https://registry.yarnpkg.com/@utoo/pack-win32-x64-msvc/-/pack-win32-x64-msvc-1.4.19.tgz#7e66ce36e79f69ef1d3d412ad984b505de6f43a4"
+  integrity sha512-JckgevDZVic+hmuXJLIUKPSahUYXwwEzIlQXsyvhLc/0GriMC4ByrF1fpKTJYffr5SCIbAAwHcyBTjy5H8EfDQ==
 
-"@utoo/pack@1.4.18":
-  version "1.4.18"
-  resolved "https://registry.yarnpkg.com/@utoo/pack/-/pack-1.4.18.tgz#6cc06373e893720baec1abe753fc79ed23b5fa3d"
-  integrity sha512-iBRX86Tav8PeUBC/7Vw3NJaBk0DmkJsepkqy9S9tIVszM2AAYN3EZDFyVk0a8CDNuDASfoNp65yVZ8/sVUE3qA==
+"@utoo/pack@1.4.19":
+  version "1.4.19"
+  resolved "https://registry.yarnpkg.com/@utoo/pack/-/pack-1.4.19.tgz#66395cc3c1d15ff7d2fb62548598b1e87e94f586"
+  integrity sha512-Vwl6lzCwbaFexDiMtdqiWJ9g5pv25IQfCbmzm2qArHWOBzftJpnaYmXwqr5cu3NC1n9ZT3PJ3o2RmjzZcxr1eg==
   dependencies:
     "@babel/code-frame" "7.22.5"
     "@hono/node-server" "^1.19.11"
     "@hono/node-ws" "^1.3.0"
     "@swc/helpers" "0.5.15"
-    "@utoo/pack-shared" "1.4.18"
+    "@utoo/pack-shared" "1.4.19"
     domparser-rs "^0.0.7"
     find-up "4.1.0"
     get-port "5.1.1"
@@ -2359,13 +2359,13 @@
     send "0.17.1"
     ws "^8.18.1"
   optionalDependencies:
-    "@utoo/pack-darwin-arm64" "1.4.18"
-    "@utoo/pack-darwin-x64" "1.4.18"
-    "@utoo/pack-linux-arm64-gnu" "1.4.18"
-    "@utoo/pack-linux-arm64-musl" "1.4.18"
-    "@utoo/pack-linux-x64-gnu" "1.4.18"
-    "@utoo/pack-linux-x64-musl" "1.4.18"
-    "@utoo/pack-win32-x64-msvc" "1.4.18"
+    "@utoo/pack-darwin-arm64" "1.4.19"
+    "@utoo/pack-darwin-x64" "1.4.19"
+    "@utoo/pack-linux-arm64-gnu" "1.4.19"
+    "@utoo/pack-linux-arm64-musl" "1.4.19"
+    "@utoo/pack-linux-x64-gnu" "1.4.19"
+    "@utoo/pack-linux-x64-musl" "1.4.19"
+    "@utoo/pack-win32-x64-msvc" "1.4.19"
 
 "@vitejs/plugin-react@4.0.0":
   version "4.0.0"
@@ -3772,10 +3772,10 @@ dumi-assets-types@2.4.14:
   resolved "https://registry.yarnpkg.com/dumi-assets-types/-/dumi-assets-types-2.4.14.tgz#d0a3d24f810a43bf29a27a7f95e4d3b159bd3d1e"
   integrity sha512-k2Z3z7/IcHOYASP/nDjocShdzXatmOuhkAwgYw/4KNiq36gpAKjn5MlrPkzdGH70TbcHGLGEul9b/4sYJLoS9A==
 
-dumi@2.4.39:
-  version "2.4.39"
-  resolved "https://registry.yarnpkg.com/dumi/-/dumi-2.4.39.tgz#b713f48fce2181fb1c3762d646a0231ecdbfe81c"
-  integrity sha512-II/JVBcJm8kPXkigaNb3p/qrSkGj+60k/ILZ6BDD0/+zCkwsZixvdkHKP07OYvTCZoT4inSnm4thDzWPBxRd6A==
+dumi@2.4.40:
+  version "2.4.40"
+  resolved "https://registry.yarnpkg.com/dumi/-/dumi-2.4.40.tgz#0e5fdaba4804e0ba07029873f96946a3776e098d"
+  integrity sha512-P1g2QaFWhs/aUzBSLyzdGACjuN5k9HRxxz3ePZDe/HglvRiIoPy6G5+sr75OikL601OAsmUO4Mb9acQTpwf3Jg==
   dependencies:
     "@ant-design/icons-svg" "^4.4.2"
     "@makotot/ghostui" "^2.0.0"
@@ -3783,9 +3783,9 @@ dumi@2.4.39:
     "@swc/core" "1.9.2"
     "@types/hast" "^2.3.5"
     "@types/mdast" "^3.0.12"
-    "@umijs/bundler-utils" "^4.6.70"
-    "@umijs/core" "^4.6.70"
-    "@umijs/utils" "^4.6.70"
+    "@umijs/bundler-utils" "^4.6.72"
+    "@umijs/core" "^4.6.72"
+    "@umijs/utils" "^4.6.72"
     animated-scroll-to "^2.3.0"
     classnames "2.3.2"
     codesandbox-import-utils "^2.2.3"
@@ -3838,7 +3838,7 @@ dumi@2.4.39:
     sass "^1.64.1"
     sitemap "^7.1.1"
     sucrase "^3.34.0"
-    umi "^4.6.70"
+    umi "^4.6.72"
     unified "^10.1.2"
     unist-util-visit "^4.1.2"
     unist-util-visit-parents "^5.1.3"
@@ -9483,20 +9483,20 @@ types-ramda@^0.29.4:
   dependencies:
     ts-toolbelt "^9.6.0"
 
-umi@^4.6.70:
-  version "4.6.70"
-  resolved "https://registry.yarnpkg.com/umi/-/umi-4.6.70.tgz#f09acaab56b17fba6d92e0c0e2b3a0c953aeff5e"
-  integrity sha512-KDyuzK1TiSsqSywsWpAImI6ReyHIfVMGRNNTPNPGDfiPZu7rrsICwDj7xg8xQH4fOhbGJWg29TAdCqN2p7A0uA==
+umi@^4.6.72:
+  version "4.6.72"
+  resolved "https://registry.yarnpkg.com/umi/-/umi-4.6.72.tgz#933e888b6221764ec009daae1b75b74b53ae09a1"
+  integrity sha512-BAwPIPDI802bKqLz9jgOGtrqekVoAiPhv8zPYUP1vn1O6EoHkk/qu2on2L/wAFhk+w27kavL7xPuJL3NKWC3SQ==
   dependencies:
     "@babel/runtime" "7.23.6"
-    "@umijs/bundler-utils" "4.6.70"
-    "@umijs/bundler-webpack" "4.6.70"
-    "@umijs/core" "4.6.70"
-    "@umijs/preset-umi" "4.6.70"
-    "@umijs/renderer-react" "4.6.70"
-    "@umijs/server" "4.6.70"
-    "@umijs/test" "4.6.70"
-    "@umijs/utils" "4.6.70"
+    "@umijs/bundler-utils" "4.6.72"
+    "@umijs/bundler-webpack" "4.6.72"
+    "@umijs/core" "4.6.72"
+    "@umijs/preset-umi" "4.6.72"
+    "@umijs/renderer-react" "4.6.72"
+    "@umijs/server" "4.6.72"
+    "@umijs/test" "4.6.72"
+    "@umijs/utils" "4.6.72"
     prettier-plugin-organize-imports "^3.2.2"
     prettier-plugin-packagejson "2.4.3"
 
